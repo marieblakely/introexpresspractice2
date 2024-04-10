@@ -1,6 +1,7 @@
 // import modules
 
 import express from 'express'
+import { shoes } from './data/shoes-data.js'
 
 // create Express app
 

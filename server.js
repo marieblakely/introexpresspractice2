@@ -25,6 +25,13 @@ app.get('/', function(req, res){
 app.get('/home', function(req, res){
   res.render('home')
 })
+
+app.get('/shoes', function (req, res) {
+  res.render('shoes/index', {
+    shoes: shoes
+  })
+})
+
 // tell the app to listen on port 3000
 
 app.listen(3000, function() {
